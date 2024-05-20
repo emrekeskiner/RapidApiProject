@@ -1,0 +1,12 @@
+﻿@model ExchangeViewModel
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br />
+    <h2 class="alert alert-success">Dolar Alış : @Model.data.exchange_rate</h2>
+    <h2 class="alert alert-danger">Dolar Satış : @Model.data.previous_close</h2>
+</div>
